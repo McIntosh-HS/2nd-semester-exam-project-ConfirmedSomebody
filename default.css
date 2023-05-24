@@ -3,7 +3,7 @@ body {
 }
 
 ul {
-    background-color: darkblue;
+    background-color: blue;
     padding: 20;
     margin: 10;
     list-style: none;
@@ -23,8 +23,8 @@ li a {
 
 }
 li a:hover {
-    background-color: black;
-    color: green;
+    background-color: darkblue;
+    color: Red;
 }
 
 .logo {
@@ -41,32 +41,23 @@ html {
 }
 
 hr {
-    color: cyan;
+    color: darkblue;
 }
 
-.img1 {
-    border-color:darkblue;
-    border-style: solid;
-    border-width: 15px;
+td {
+    border: 1px solid blue;
+    background-color: black;
+    text-align: center;
 }
 
-.img2 {
-    border-color:pink;
-    border-style: solid;
-    border-width: 15px;
-}
-
-.img3 {
-    border-color:white;
-    border-style: solid;
-    border-width: 15px;
-}
-
-table, td, th {
-    border: 1px solid darkred;
-    background-color: #000050;
+th {
+    color: red;
 }
 
 h1 {
     text-align: center;
+}
+
+.header {
+    color: red;
 }
